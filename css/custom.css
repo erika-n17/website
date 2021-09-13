@@ -1,0 +1,112 @@
+
+h2{
+	text-align: center;
+}
+body{
+  margin: 50px 0px auto auto;
+  width:100%;
+  font-family: "Lato", Times, sans-serif;
+  background-image: linear-gradient(#9eaab5,#578fa8);   
+  color:#f0f4f5;
+}
+
+
+#title{
+    padding: 20px 15px;
+}
+#title h1{
+	font-size: 50px;
+	color: #232323;
+}
+#title h3{
+	font-size: 30px;
+	color: #232323;
+}
+
+#portrait{
+	display:flex;
+	justify-content: center;
+}
+
+#landing img{
+	width:300px;
+	max-width: 500px;
+	min-width: 200px;
+	height: auto;
+}
+#landing{
+	position: relative;
+	z-index: 1:;
+}
+
+.about{
+	margin: 20px 0px;
+	padding: 0px 0px;
+	color: #232323;
+	font-size:15px;
+	position:relative;
+	text-align: justify;
+}
+
+#projects h2{
+	color: #232323;
+}
+
+#projects p{
+	text-align: justify;
+	color: #232323;
+}
+
+#projectgrid h1, #projectgrid h2, #projectgrid p{
+	color:#FFFFFF;
+}
+
+.btn{
+	color: #FFFFFF;
+	margin-right: 10px;
+	color: #232323;
+	border-color: #232323;
+}
+
+.buttons{
+	display: flex;
+	justify-content: center;
+}
+
+#gitjump{
+	display:flex;
+	justify-content: center;
+}
+#gitbutton{
+	width: 250px;
+	height: 40px;
+}
+
+footer{
+	margin-top: 15px;
+	background-color: #000000;
+	padding: 15px;
+	left:0;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+footer ul{
+	padding: 0px;
+}
+footer ul li{
+	display: inline-block;
+	padding: 0 10%;	
+}
+footer ul li a{
+	text-decoration: none;
+	color: #FFFFFF;	
+}
+footer ul li a:hover{
+	color: #578fa8;	
+}
+footer ul li img{
+	border-radius: 5px;
+}
