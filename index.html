@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Erika Narimatsu</title>
+	
+		<link rel="stylesheet" type="text/css" href="css\bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css\custom.css">
+		<link rel="stylesheet" type="text/css" href="projectstyle.css">
+		<script type="text/javascript" src="myScript.js"></script>
+
+		<!--Link lato font-->
+		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'/>
+		<script src="lottie.js"></script>
+
+	</head>
+
+	<body>
+		<div class="container" id="landing">
+			<div class="row" id="header">
+				<div class="col-md-5" id = "portrait">
+					<img src="me.png" alt="ME" id = "me"/>
+				</div>
+				<div class="col-md-7" id="title">
+					<h1>Erika Narimatsu</h1> 
+					<h3>University of Toronto <br> Mechanical Engineering Class of 2023</h3>
+					<a class="btn btn-outline-light" href= "https://github.com/erika-n17/Portfolio/blob/main/ErikaNarimatsuResume.pdf" target="_blank"> Resume </a>
+					<a class="btn btn-outline-light" href= "https://github.com/erika-n17/Portfolio" target="_blank" role="button"> See projects </a>
+					<a class="btn btn-outline-light" href= "mailto: erika.narimatsu@mail.utoronto.ca" target="_blank" role="button"> Send email </a>
+				</div>
+			</div>
+		</div>
+		<div class="about">	
+		<div class="container">
+			<div class = "row">
+				<h2>About Me</h2>
+				<p>Hi! My name is Erika Narimatsu, and I'm a 2nd year mechanical engineering student at the University of Toronto. I love the hands-on aspect of mechanical engineering, and the pride in seeing something I designed come to life. In my free time, I love to bake, listen to music, and play video games.</p>
+			</div>
+			<div class = "row">
+				<h2> My Inspirations </h2>
+				<p> When I was in middle school, I had the opportunity to see ASIMO in person at the Miraikan in Tokyo, and watched the robot perform backflips and score soccer balls. I was amazed at how it was able to interact with audience members and behave like a human would. Learning about robotic systems like ASIMO, and my own experiences with FIRST Robotics inspired me to pursue engineering in post-secondary education.  </p>
+			</div>
+			<div class = "row">
+				<h2>My Aspirations</h2>
+				<p> Robots and mechatronics create opportunities to enhance human life and allow us to challenge the boundaries of our own capability; robots like ASIMO and Pepper create new possibilities and care, therapy and rehabilitation, while Da Vinci's Intuitive allows us to increase surpass the limits of human precision and accuracy in surgery. In third year, I hope to specialize in mechatronics (and solid mechanics or bioengineering) to develop the skills and knowledge needed to create robotic systems. By contributing to the innovation of robotic systems, I hope to one day be part of something that helps change someone's life for the better.</p>
+			</div>
+		</div>
+		</div>
+
+	<!---
+	This part deals with the projects. Links to project style .css
+	--->
+		<div class= "container" id="projects">
+			<div class="main_div">
+				<div class="buttons">
+					<a class="btn btn-outline-light" onclick="divVisibility('ProjectDiv');"> <h2>Projects</h2></a> 
+					<a class="btn btn-outline-light" onclick="divVisibility('ExtracurricularDiv');"><h2>Extracurriculars</h2></a>
+				</div>
+				<div class="inner_div">
+					<div id="ProjectDiv">
+							<p>Through course projects, as well as cocurricular engineering projects, I have developed technical proficiency in areas such as mechanical design, CAD, and FEA. Furthermore, these projects have helped me improve my skills in teamwork, communication, and organization.</p>
+							<div class="row" id ="projectgrid">
+							    <a class="grid-item"> <!--target="_blank" rel="noopener"-->
+							      	<img src="References/BackplaneEnclosure.PNG" alt="#"/>
+							     	<div class="overlay-bot">
+							      		<h1>Backplane Enclosure</h1>
+							      		<h2> May 2021 - Sept 2021 <br>Robotics for Space Exploration</h2>
+							        	<p> To protect the rover's circuit boards from sand and debris while providing easy access, I collaborated with the electrical team to create a backplane enclosure. The circuit boards slide into the enclosure to connect to a central circuit panel at the back of the enclosure, which eliminates messy wiring. This project helped me to effectively collaborate with individuals of differing technical backgrounds, and further understand the integration of different engineering disciplines in large scale projects. </p> 
+							     	</div>
+							    </a>
+							    <a class="grid-item"> <!--target="_blank" rel="noopener"-->
+							      	<img src="References/ANSYSWorkshop.PNG" alt="#"/>
+							     	<div class="overlay-bot">
+							      		<h1>ANSYS Workshop</h1>
+							      		<h2> Jul 2021 <br>Robotics for Space Exploration</h2>
+							        	<p>I curated a summer workshop to teach the basics of finite element analysis, and the use of ANSYS, to members of the design team. ANSYS was used to simulate a tensile test on dog-bone specimens of varying geometry; this enabled students to observe stress concentration and estimate yield stress on familiar models.</p> 
+							     	</div>
+							    </a>
+							    <a class="grid-item"> <!--target="_blank" rel="noopener"-->
+							      	<img src="References/RockerBogie.PNG" alt="#"/>
+							     	<div class="overlay-bot">
+							      		<h1>Rocker Bogie</h1>
+							      		<h2> Sep 2020 - Apr 2021 <br>Robotics for Space Exploration</h2>
+							        	<p>In the 2020-2021 season for RSX, I was responsible for the redesign of the rocker bogie drive system, which lowered the center of gravity and increased durability. Although we were unable to build the finalized design, the online school year presented me with an opportunity to further improve my verbal communication and listening skills.</p> 
+							     	</div>
+							    </a>
+							    <a class="grid-item"> <!--target="_blank" rel="noopener"-->
+							    	<img src="references/BatteryBay.png" alt="#"/>
+							    	<div class="overlay-bot">
+							    		<h1>Battery Bay Design</h1>
+							      		<h2>Sep 2019 - Apr 2020 <br> Robotics for Space Exploration</h2>
+							        	<p>In first year, I created the battery and circuit panel mount for RSX’s 2019-2020 Mars Rover, which is made of 3D printed PLA, and laser cut acrylic. In this project, I was required to design a system that was compact, robust, and allowed for quick battery exchanges during competitions. In this project, I learned how to effectively communicate with team members of diverse technical backgrounds to develop a design which met everyone’s needs.</p> 
+							      	</div>
+							    </a>
+							    <a class="grid-item"> <!--target="_blank" rel="noopener"-->
+							      	<img src="references/Gearbox.png" alt="#"/>
+							      	<div class="overlay-bot">
+							      		<h1>Gearbox</h1>
+							      		<h2>Dec 2020 <br> MIE243: Mechanical Engineering Design</h2>
+							       		<p>In MIE243, our 2nd year mechanical engineering design course, we designed and 3D printed gearboxes in teams of 4 to apply the knowledge we had acquired in class; I was responsible for the design of the housings, as well as the assembly of the gearbox CAD. This gearbox has a 16:1 reduction and collinear input-output. In this project, I learned how to apply the correct tolerances to a design, and optimize design for ease of manufacturing and assembly. </p>
+							      	</div>
+							    </a>
+							</div>
+							<div id = "gitjump">
+								<a class="btn btn-outline-light" id ="gitbutton"href= "https://github.com/erika-n17/Portfolio" target="_blank"> See all projects on Github </a>
+							</div>
+					</div>
+
+					<div id="ExtracurricularDiv" style="display: none;">
+						<p>Through extracurricular activities, I am able to connect with the UofT Engineering undergraduate community and give back to the Skule experiences that I love. Furthermore, these experiences allowed me to gain experience in project management, event planning, organization, and teamwork.</p>
+							<div class="row" id ="projectgrid">
+							    <a class="grid-item"> <!--target="_blank" rel="noopener"-->
+							      	<img src="References/HardHatCafe.jpg" alt="#"/>
+							     	<div class="overlay-bot">
+							      		<h1>Operations Executive</h1>
+							      		<h2> Jul 2021 - Present <br>Hardhat Cafe</h2>
+							        	<p>The Hardhat Cafe is a student run convenience food shop located in the Sanford Fleming Building, which provides affordable, ready-to-eat food and snacks for students. As Operations Executive, I am responisble for sanitization and food safety measures within the store, upkeep of vending machines, and analyzation of sales data.  </p> 
+							     	</div>
+							    </a>
+							    <a class="grid-item"> <!--target="_blank" rel="noopener"-->
+							      	<img src="References/HavengerScunt.png" alt="#"/>
+							     	<div class="overlay-bot">
+							      		<h1>Havenger Scunt Co-Chair</h1>
+							      		<h2> May 2021 - Sept 2021 <br>Engineering Orientation Committee</h2>
+							        	<p>Havenger Scunt is F!rosh week's annual scavenger hunt which encourages incoming first years to explore Toronto, make new friends, and challenge their comfort zones. As one of two Subcommittee Co-Chairs, I planned the event for more than 800 incoming first years and 100 upper year leaders, preparing event proposals, sorting out event logistics, and conducting leader training. As one of the in-person events in Orientation 2021, special consideration into COVID-19 safety was necessary.</p>
+							     	</div>
+							    </a>
+							</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<footer>
+			<ul>
+				<li>
+					<a href ="https://www.linkedin.com/in/enarimatsu/" target= "_blank"> 
+						<img src="references/linkedin_icon.jpg" target="_blank" alt= "L" width="20" height ="20">
+						&nbsp LinkedIn
+					</a> 
+				</li>
+				<li>
+					<a href ="https://www.facebook.com/airwreckanarimatsoooooo" target= "_blank">
+						<img src="references/facebook_icon.png" target="_blank" alt="F" width="20" height ="20">
+						&nbsp Facebook
+					</a>
+				</li>
+				<li>
+					<a href ="mailto: erika.narimatsu@mail.utoronto.ca"> 
+						<img src="references/email_icon.jpg" target="_blank" alt="M" width="20" height ="20">
+						&nbsp Email
+					</a>
+				</li>
+			</ul>
+	</footer>
+	</body>
+	
+	
+</html>
